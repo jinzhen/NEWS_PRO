@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		EE36F7BC1A3AD542005E4F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7BB1A3AD542005E4F99 /* main.m */; };
 		EE36F7BF1A3AD542005E4F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7BE1A3AD542005E4F99 /* AppDelegate.m */; };
-		EE36F7C21A3AD542005E4F99 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7C11A3AD542005E4F99 /* MasterViewController.m */; };
-		EE36F7C51A3AD542005E4F99 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7C41A3AD542005E4F99 /* DetailViewController.m */; };
-		EE36F7C81A3AD542005E4F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE36F7C61A3AD542005E4F99 /* Main.storyboard */; };
-		EE36F7CA1A3AD542005E4F99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE36F7C91A3AD542005E4F99 /* Images.xcassets */; };
-		EE36F7CD1A3AD542005E4F99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE36F7CB1A3AD542005E4F99 /* LaunchScreen.xib */; };
 		EE36F7D91A3AD542005E4F99 /* NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7D81A3AD542005E4F99 /* NewsTests.m */; };
 /* End PBXBuildFile section */
 
@@ -33,16 +28,12 @@
 		EE36F7BB1A3AD542005E4F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE36F7BD1A3AD542005E4F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE36F7BE1A3AD542005E4F99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE36F7C01A3AD542005E4F99 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		EE36F7C11A3AD542005E4F99 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		EE36F7C31A3AD542005E4F99 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		EE36F7C41A3AD542005E4F99 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		EE36F7C71A3AD542005E4F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE36F7C91A3AD542005E4F99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EE36F7CC1A3AD542005E4F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EE36F7D21A3AD542005E4F99 /* NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE36F7D71A3AD542005E4F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE36F7D81A3AD542005E4F99 /* NewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTests.m; sourceTree = "<group>"; };
+		EE36F7F21A3ADFDB005E4F99 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		EE36F7FA1A3AEAA1005E4F99 /* server_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = server_config.h; sourceTree = "<group>"; };
+		EE36F7FB1A3AEB2D005E4F99 /* JsonDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonDef.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,16 +75,20 @@
 		EE36F7B81A3AD542005E4F99 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				EE36F7F91A3AE139005E4F99 /* plist */,
+				EE36F7F11A3ADE82005E4F99 /* Launch */,
+				EE36F7EC1A3ADE60005E4F99 /* Comon */,
+				EE36F7EF1A3ADE60005E4F99 /* Images */,
+				EE36F7F01A3ADE60005E4F99 /* lib */,
+				EE36F7E21A3ADD41005E4F99 /* Convenience */,
+				EE36F7E31A3ADD41005E4F99 /* Interaction */,
+				EE36F7E41A3ADD41005E4F99 /* NewsList */,
+				EE36F7E51A3ADD41005E4F99 /* User */,
 				EE36F7BD1A3AD542005E4F99 /* AppDelegate.h */,
 				EE36F7BE1A3AD542005E4F99 /* AppDelegate.m */,
-				EE36F7C01A3AD542005E4F99 /* MasterViewController.h */,
-				EE36F7C11A3AD542005E4F99 /* MasterViewController.m */,
-				EE36F7C31A3AD542005E4F99 /* DetailViewController.h */,
-				EE36F7C41A3AD542005E4F99 /* DetailViewController.m */,
-				EE36F7C61A3AD542005E4F99 /* Main.storyboard */,
-				EE36F7C91A3AD542005E4F99 /* Images.xcassets */,
-				EE36F7CB1A3AD542005E4F99 /* LaunchScreen.xib */,
 				EE36F7B91A3AD542005E4F99 /* Supporting Files */,
+				EE36F7F21A3ADFDB005E4F99 /* config.h */,
+				EE36F7FA1A3AEAA1005E4F99 /* server_config.h */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -122,6 +117,134 @@
 				EE36F7D71A3AD542005E4F99 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE36F7E21A3ADD41005E4F99 /* Convenience */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Convenience;
+			sourceTree = "<group>";
+		};
+		EE36F7E31A3ADD41005E4F99 /* Interaction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interaction;
+			sourceTree = "<group>";
+		};
+		EE36F7E41A3ADD41005E4F99 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		EE36F7E51A3ADD41005E4F99 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EE36F7EC1A3ADE60005E4F99 /* Comon */ = {
+			isa = PBXGroup;
+			children = (
+				EE36F7ED1A3ADE60005E4F99 /* ComTools */,
+				EE36F7EE1A3ADE60005E4F99 /* ComViews */,
+				EE36F7FB1A3AEB2D005E4F99 /* JsonDef.h */,
+			);
+			path = Comon;
+			sourceTree = "<group>";
+		};
+		EE36F7ED1A3ADE60005E4F99 /* ComTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ComTools;
+			sourceTree = "<group>";
+		};
+		EE36F7EE1A3ADE60005E4F99 /* ComViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ComViews;
+			sourceTree = "<group>";
+		};
+		EE36F7EF1A3ADE60005E4F99 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE36F7F31A3AE0D6005E4F99 /* common */,
+				EE36F7F41A3AE0D6005E4F99 /* cvnc */,
+				EE36F7F51A3AE0D6005E4F99 /* interact */,
+				EE36F7F61A3AE0D6005E4F99 /* launch */,
+				EE36F7F71A3AE0D6005E4F99 /* news */,
+				EE36F7F81A3AE0D6005E4F99 /* user */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EE36F7F01A3ADE60005E4F99 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EE36F7F11A3ADE82005E4F99 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		EE36F7F31A3AE0D6005E4F99 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		EE36F7F41A3AE0D6005E4F99 /* cvnc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cvnc;
+			sourceTree = "<group>";
+		};
+		EE36F7F51A3AE0D6005E4F99 /* interact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interact;
+			sourceTree = "<group>";
+		};
+		EE36F7F61A3AE0D6005E4F99 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		EE36F7F71A3AE0D6005E4F99 /* news */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = news;
+			sourceTree = "<group>";
+		};
+		EE36F7F81A3AE0D6005E4F99 /* user */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		EE36F7F91A3AE139005E4F99 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +327,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE36F7C81A3AD542005E4F99 /* Main.storyboard in Resources */,
-				EE36F7CD1A3AD542005E4F99 /* LaunchScreen.xib in Resources */,
-				EE36F7CA1A3AD542005E4F99 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE36F7BF1A3AD542005E4F99 /* AppDelegate.m in Sources */,
-				EE36F7C21A3AD542005E4F99 /* MasterViewController.m in Sources */,
 				EE36F7BC1A3AD542005E4F99 /* main.m in Sources */,
-				EE36F7C51A3AD542005E4F99 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,25 +367,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		EE36F7C61A3AD542005E4F99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE36F7C71A3AD542005E4F99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EE36F7CB1A3AD542005E4F99 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE36F7CC1A3AD542005E4F99 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		EE36F7DA1A3AD542005E4F99 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -276,7 +375,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -318,7 +417,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -354,6 +453,7 @@
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -364,6 +464,7 @@
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -420,6 +521,7 @@
 				EE36F7DE1A3AD542005E4F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE36F7DF1A3AD542005E4F99 /* Build configuration list for PBXNativeTarget "NewsTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +530,7 @@
 				EE36F7E11A3AD542005E4F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
