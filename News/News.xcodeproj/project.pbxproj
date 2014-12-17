@@ -10,6 +10,11 @@
 		EE36F7BC1A3AD542005E4F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7BB1A3AD542005E4F99 /* main.m */; };
 		EE36F7BF1A3AD542005E4F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7BE1A3AD542005E4F99 /* AppDelegate.m */; };
 		EE36F7D91A3AD542005E4F99 /* NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36F7D81A3AD542005E4F99 /* NewsTests.m */; };
+		EE4CAF851A4119CE0080D8AF /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE4CAF841A4119CE0080D8AF /* setting.plist */; };
+		EE4CAF881A411A3D0080D8AF /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF871A411A3D0080D8AF /* Setting.m */; };
+		EE4CAF8B1A411AAF0080D8AF /* KBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF8A1A411AAF0080D8AF /* KBTabBarViewController.m */; };
+		EE4CAF901A411B1B0080D8AF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF8F1A411B1B0080D8AF /* LoginViewController.m */; };
+		EE4CAF931A411B6F0080D8AF /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF921A411B6F0080D8AF /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,15 @@
 		EE36F7F21A3ADFDB005E4F99 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		EE36F7FA1A3AEAA1005E4F99 /* server_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = server_config.h; sourceTree = "<group>"; };
 		EE36F7FB1A3AEB2D005E4F99 /* JsonDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonDef.h; sourceTree = "<group>"; };
+		EE4CAF841A4119CE0080D8AF /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
+		EE4CAF861A411A3D0080D8AF /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		EE4CAF871A411A3D0080D8AF /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		EE4CAF891A411AAF0080D8AF /* KBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTabBarViewController.h; sourceTree = "<group>"; };
+		EE4CAF8A1A411AAF0080D8AF /* KBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTabBarViewController.m; sourceTree = "<group>"; };
+		EE4CAF8E1A411B1B0080D8AF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EE4CAF8F1A411B1B0080D8AF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EE4CAF911A411B6F0080D8AF /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		EE4CAF921A411B6F0080D8AF /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +174,8 @@
 		EE36F7ED1A3ADE60005E4F99 /* ComTools */ = {
 			isa = PBXGroup;
 			children = (
+				EE4CAF861A411A3D0080D8AF /* Setting.h */,
+				EE4CAF871A411A3D0080D8AF /* Setting.m */,
 			);
 			path = ComTools;
 			sourceTree = "<group>";
@@ -194,6 +210,10 @@
 		EE36F7F11A3ADE82005E4F99 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				EE4CAF8C1A411AEA0080D8AF /* login */,
+				EE4CAF8D1A411AEA0080D8AF /* regist */,
+				EE4CAF891A411AAF0080D8AF /* KBTabBarViewController.h */,
+				EE4CAF8A1A411AAF0080D8AF /* KBTabBarViewController.m */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -243,8 +263,27 @@
 		EE36F7F91A3AE139005E4F99 /* plist */ = {
 			isa = PBXGroup;
 			children = (
+				EE4CAF841A4119CE0080D8AF /* setting.plist */,
 			);
 			path = plist;
+			sourceTree = "<group>";
+		};
+		EE4CAF8C1A411AEA0080D8AF /* login */ = {
+			isa = PBXGroup;
+			children = (
+				EE4CAF8E1A411B1B0080D8AF /* LoginViewController.h */,
+				EE4CAF8F1A411B1B0080D8AF /* LoginViewController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		EE4CAF8D1A411AEA0080D8AF /* regist */ = {
+			isa = PBXGroup;
+			children = (
+				EE4CAF911A411B6F0080D8AF /* RegisterViewController.h */,
+				EE4CAF921A411B6F0080D8AF /* RegisterViewController.m */,
+			);
+			path = regist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4CAF851A4119CE0080D8AF /* setting.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +385,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE36F7BF1A3AD542005E4F99 /* AppDelegate.m in Sources */,
+				EE4CAF931A411B6F0080D8AF /* RegisterViewController.m in Sources */,
 				EE36F7BC1A3AD542005E4F99 /* main.m in Sources */,
+				EE4CAF881A411A3D0080D8AF /* Setting.m in Sources */,
+				EE4CAF8B1A411AAF0080D8AF /* KBTabBarViewController.m in Sources */,
+				EE4CAF901A411B1B0080D8AF /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
