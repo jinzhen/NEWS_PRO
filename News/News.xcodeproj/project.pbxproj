@@ -15,6 +15,16 @@
 		EE4CAF8B1A411AAF0080D8AF /* KBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF8A1A411AAF0080D8AF /* KBTabBarViewController.m */; };
 		EE4CAF901A411B1B0080D8AF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF8F1A411B1B0080D8AF /* LoginViewController.m */; };
 		EE4CAF931A411B6F0080D8AF /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF921A411B6F0080D8AF /* RegisterViewController.m */; };
+		EE77C5D81A43F0330083FB26 /* LaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5D71A43F0330083FB26 /* LaunchView.m */; };
+		EE77C5DB1A43F08F0083FB26 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5DA1A43F08F0083FB26 /* LaunchViewController.m */; };
+		EE77C5DE1A43F36E0083FB26 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE77C5DD1A43F36E0083FB26 /* Localizable.strings */; };
+		EE77C5E11A43FA130083FB26 /* launch_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = EE77C5E01A43FA130083FB26 /* launch_screen.png */; };
+		EE77C5E41A4403EA0083FB26 /* ConvenienceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5E31A4403EA0083FB26 /* ConvenienceListViewController.m */; };
+		EE77C5E71A4404060083FB26 /* InteractionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5E61A4404060083FB26 /* InteractionListViewController.m */; };
+		EE77C5EA1A44041E0083FB26 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5E91A44041E0083FB26 /* UserInfoViewController.m */; };
+		EE77C5ED1A4404C30083FB26 /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5EC1A4404C30083FB26 /* NewsListViewController.m */; };
+		EE77C5F11A440E5E0083FB26 /* KBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5F01A440E5E0083FB26 /* KBBaseViewController.m */; };
+		EE77C5F41A4425170083FB26 /* KBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77C5F31A4425170083FB26 /* KBNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,25 @@
 		EE4CAF8F1A411B1B0080D8AF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		EE4CAF911A411B6F0080D8AF /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		EE4CAF921A411B6F0080D8AF /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		EE77C5D61A43F0330083FB26 /* LaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchView.h; sourceTree = "<group>"; };
+		EE77C5D71A43F0330083FB26 /* LaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchView.m; sourceTree = "<group>"; };
+		EE77C5D91A43F08F0083FB26 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		EE77C5DA1A43F08F0083FB26 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		EE77C5DD1A43F36E0083FB26 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		EE77C5DF1A43F6E00083FB26 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EE77C5E01A43FA130083FB26 /* launch_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_screen.png; sourceTree = "<group>"; };
+		EE77C5E21A4403EA0083FB26 /* ConvenienceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvenienceListViewController.h; sourceTree = "<group>"; };
+		EE77C5E31A4403EA0083FB26 /* ConvenienceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvenienceListViewController.m; sourceTree = "<group>"; };
+		EE77C5E51A4404060083FB26 /* InteractionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionListViewController.h; sourceTree = "<group>"; };
+		EE77C5E61A4404060083FB26 /* InteractionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionListViewController.m; sourceTree = "<group>"; };
+		EE77C5E81A44041E0083FB26 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		EE77C5E91A44041E0083FB26 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		EE77C5EB1A4404C30083FB26 /* NewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewController.h; sourceTree = "<group>"; };
+		EE77C5EC1A4404C30083FB26 /* NewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewController.m; sourceTree = "<group>"; };
+		EE77C5EF1A440E5E0083FB26 /* KBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBaseViewController.h; sourceTree = "<group>"; };
+		EE77C5F01A440E5E0083FB26 /* KBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBaseViewController.m; sourceTree = "<group>"; };
+		EE77C5F21A4425170083FB26 /* KBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavigationController.h; sourceTree = "<group>"; };
+		EE77C5F31A4425170083FB26 /* KBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +118,7 @@
 		EE36F7B81A3AD542005E4F99 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5DC1A43F3120083FB26 /* localizable */,
 				EE36F7F91A3AE139005E4F99 /* plist */,
 				EE36F7F11A3ADE82005E4F99 /* Launch */,
 				EE36F7EC1A3ADE60005E4F99 /* Comon */,
@@ -103,6 +133,7 @@
 				EE36F7B91A3AD542005E4F99 /* Supporting Files */,
 				EE36F7F21A3ADFDB005E4F99 /* config.h */,
 				EE36F7FA1A3AEAA1005E4F99 /* server_config.h */,
+				EE77C5DF1A43F6E00083FB26 /* PrefixHeader.pch */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -136,6 +167,8 @@
 		EE36F7E21A3ADD41005E4F99 /* Convenience */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5E21A4403EA0083FB26 /* ConvenienceListViewController.h */,
+				EE77C5E31A4403EA0083FB26 /* ConvenienceListViewController.m */,
 			);
 			path = Convenience;
 			sourceTree = "<group>";
@@ -143,6 +176,8 @@
 		EE36F7E31A3ADD41005E4F99 /* Interaction */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5E51A4404060083FB26 /* InteractionListViewController.h */,
+				EE77C5E61A4404060083FB26 /* InteractionListViewController.m */,
 			);
 			path = Interaction;
 			sourceTree = "<group>";
@@ -150,6 +185,8 @@
 		EE36F7E41A3ADD41005E4F99 /* NewsList */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5EB1A4404C30083FB26 /* NewsListViewController.h */,
+				EE77C5EC1A4404C30083FB26 /* NewsListViewController.m */,
 			);
 			path = NewsList;
 			sourceTree = "<group>";
@@ -157,6 +194,8 @@
 		EE36F7E51A3ADD41005E4F99 /* User */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5E81A44041E0083FB26 /* UserInfoViewController.h */,
+				EE77C5E91A44041E0083FB26 /* UserInfoViewController.m */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -164,6 +203,7 @@
 		EE36F7EC1A3ADE60005E4F99 /* Comon */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5EE1A440E4B0083FB26 /* ComViewControllers */,
 				EE36F7ED1A3ADE60005E4F99 /* ComTools */,
 				EE36F7EE1A3ADE60005E4F99 /* ComViews */,
 				EE36F7FB1A3AEB2D005E4F99 /* JsonDef.h */,
@@ -210,6 +250,7 @@
 		EE36F7F11A3ADE82005E4F99 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5D51A43EEDA0083FB26 /* launch */,
 				EE4CAF8C1A411AEA0080D8AF /* login */,
 				EE4CAF8D1A411AEA0080D8AF /* regist */,
 				EE4CAF891A411AAF0080D8AF /* KBTabBarViewController.h */,
@@ -242,6 +283,7 @@
 		EE36F7F61A3AE0D6005E4F99 /* launch */ = {
 			isa = PBXGroup;
 			children = (
+				EE77C5E01A43FA130083FB26 /* launch_screen.png */,
 			);
 			path = launch;
 			sourceTree = "<group>";
@@ -284,6 +326,36 @@
 				EE4CAF921A411B6F0080D8AF /* RegisterViewController.m */,
 			);
 			path = regist;
+			sourceTree = "<group>";
+		};
+		EE77C5D51A43EEDA0083FB26 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				EE77C5D61A43F0330083FB26 /* LaunchView.h */,
+				EE77C5D71A43F0330083FB26 /* LaunchView.m */,
+				EE77C5D91A43F08F0083FB26 /* LaunchViewController.h */,
+				EE77C5DA1A43F08F0083FB26 /* LaunchViewController.m */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		EE77C5DC1A43F3120083FB26 /* localizable */ = {
+			isa = PBXGroup;
+			children = (
+				EE77C5DD1A43F36E0083FB26 /* Localizable.strings */,
+			);
+			path = localizable;
+			sourceTree = "<group>";
+		};
+		EE77C5EE1A440E4B0083FB26 /* ComViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE77C5EF1A440E5E0083FB26 /* KBBaseViewController.h */,
+				EE77C5F01A440E5E0083FB26 /* KBBaseViewController.m */,
+				EE77C5F21A4425170083FB26 /* KBNavigationController.h */,
+				EE77C5F31A4425170083FB26 /* KBNavigationController.m */,
+			);
+			path = ComViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,7 +438,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE77C5E11A43FA130083FB26 /* launch_screen.png in Resources */,
 				EE4CAF851A4119CE0080D8AF /* setting.plist in Resources */,
+				EE77C5DE1A43F36E0083FB26 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,11 +459,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE36F7BF1A3AD542005E4F99 /* AppDelegate.m in Sources */,
+				EE77C5E41A4403EA0083FB26 /* ConvenienceListViewController.m in Sources */,
+				EE77C5D81A43F0330083FB26 /* LaunchView.m in Sources */,
+				EE77C5E71A4404060083FB26 /* InteractionListViewController.m in Sources */,
+				EE77C5F41A4425170083FB26 /* KBNavigationController.m in Sources */,
 				EE4CAF931A411B6F0080D8AF /* RegisterViewController.m in Sources */,
+				EE77C5DB1A43F08F0083FB26 /* LaunchViewController.m in Sources */,
+				EE77C5EA1A44041E0083FB26 /* UserInfoViewController.m in Sources */,
 				EE36F7BC1A3AD542005E4F99 /* main.m in Sources */,
 				EE4CAF881A411A3D0080D8AF /* Setting.m in Sources */,
 				EE4CAF8B1A411AAF0080D8AF /* KBTabBarViewController.m in Sources */,
 				EE4CAF901A411B1B0080D8AF /* LoginViewController.m in Sources */,
+				EE77C5ED1A4404C30083FB26 /* NewsListViewController.m in Sources */,
+				EE77C5F11A440E5E0083FB26 /* KBBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = News/PrefixHeader.pch;
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +588,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = News/PrefixHeader.pch;
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -33,13 +33,14 @@
 #define kScreenWidth     [[UIScreen mainScreen] bounds].size.width
 #define kScreenHeight    [[UIScreen mainScreen] bounds].size.height
 #define kScreenSize      [[UIScreen mainScreen] bounds].size
+#define kScreenBounds    [UIScreen mainScreen].bounds
 #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 #define kStatusBarWidth  [[UIApplication sharedApplication] statusBarFrame].size.width
 
 /*
  localized
  */
-#define NSLocalizedStringEx(key, comment) \
+#define NSLocalizedStringKB(key) \
 [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:@"Localizable"]
 
 

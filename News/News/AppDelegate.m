@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "KBTabBarViewController.h"
+#import "LaunchView.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -16,7 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[[KBTabBarViewController alloc] init] autorelease];
+    [self.window makeKeyAndVisible];
+    
+    [LaunchView showLaunchView];
     
     return YES;
 }

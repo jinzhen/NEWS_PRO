@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  News
+
+  Created by lihaijin on 14-12-19.
+  Copyright (c) 2014年 lihaijin. All rights reserved.
+*/
+
+
+"TBNewsTitle" = "新闻";
+"TBConvenTitle" = "便民";
+"TBInteractTitle" = "互动";
+"TBUserTitle" = "我的";
