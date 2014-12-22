@@ -159,4 +159,13 @@
     return returnDateString;
 }
 
++ (NSString *)getAppDocumentDirectory
+{
+    NSArray* lpPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    if([lpPaths count]>0)
+        return [lpPaths objectAtIndex:0];
+    else
+        return nil;
+}
+
 @end

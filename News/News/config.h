@@ -21,8 +21,11 @@
 
 #if (kSelectServer == kServerPro)
 
+#define HTTP_HOST @"api.gzkbapp.com"
+
 #else
 
+#define HTTP_HOST @"api.gzkbapp.com"
 
 #endif
 
@@ -58,8 +61,9 @@
 /*
  ios version
  */
-#define iOS7  ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
-#define iOS8  ( [[[UIDevice currentDevice] systemVersion] compare:@"8.0"] != NSOrderedAscending )
+#define iOS7  ([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending)
+#define iOS8  ([[[UIDevice currentDevice] systemVersion] compare:@"8.0"] != NSOrderedAscending)
+#define CURRENT_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleVersionKey]
 
 /*
  iphone device

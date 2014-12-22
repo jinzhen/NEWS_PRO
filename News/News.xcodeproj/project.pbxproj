@@ -43,6 +43,8 @@
 		EE3C675C1A47FB12002B77E4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C675B1A47FB12002B77E4 /* JSONKit.m */; };
 		EE3C675F1A47FC1C002B77E4 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C675E1A47FC1C002B77E4 /* iToast.m */; };
 		EE3C67621A47FC56002B77E4 /* KBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C67611A47FC56002B77E4 /* KBTools.m */; };
+		EE3C67651A480B59002B77E4 /* ShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C67641A480B59002B77E4 /* ShowAlertView.m */; };
+		EE3C67681A48168D002B77E4 /* LaunchHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C67671A48168D002B77E4 /* LaunchHttpManager.m */; };
 		EE4CAF851A4119CE0080D8AF /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE4CAF841A4119CE0080D8AF /* setting.plist */; };
 		EE4CAF881A411A3D0080D8AF /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF871A411A3D0080D8AF /* Setting.m */; };
 		EE4CAF8B1A411AAF0080D8AF /* KBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CAF8A1A411AAF0080D8AF /* KBTabBarViewController.m */; };
@@ -155,6 +157,10 @@
 		EE3C675E1A47FC1C002B77E4 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
 		EE3C67601A47FC56002B77E4 /* KBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTools.h; sourceTree = "<group>"; };
 		EE3C67611A47FC56002B77E4 /* KBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTools.m; sourceTree = "<group>"; };
+		EE3C67631A480B59002B77E4 /* ShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlertView.h; sourceTree = "<group>"; };
+		EE3C67641A480B59002B77E4 /* ShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlertView.m; sourceTree = "<group>"; };
+		EE3C67661A48168D002B77E4 /* LaunchHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchHttpManager.h; sourceTree = "<group>"; };
+		EE3C67671A48168D002B77E4 /* LaunchHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchHttpManager.m; sourceTree = "<group>"; };
 		EE4CAF841A4119CE0080D8AF /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
 		EE4CAF861A411A3D0080D8AF /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
 		EE4CAF871A411A3D0080D8AF /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
@@ -341,6 +347,8 @@
 			children = (
 				EE3C675D1A47FC1C002B77E4 /* iToast.h */,
 				EE3C675E1A47FC1C002B77E4 /* iToast.m */,
+				EE3C67631A480B59002B77E4 /* ShowAlertView.h */,
+				EE3C67641A480B59002B77E4 /* ShowAlertView.m */,
 			);
 			path = ComViews;
 			sourceTree = "<group>";
@@ -375,6 +383,8 @@
 				EE4CAF8D1A411AEA0080D8AF /* regist */,
 				EE4CAF891A411AAF0080D8AF /* KBTabBarViewController.h */,
 				EE4CAF8A1A411AAF0080D8AF /* KBTabBarViewController.m */,
+				EE3C67661A48168D002B77E4 /* LaunchHttpManager.h */,
+				EE3C67671A48168D002B77E4 /* LaunchHttpManager.m */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -689,11 +699,13 @@
 			files = (
 				EE36F7BF1A3AD542005E4F99 /* AppDelegate.m in Sources */,
 				EE3C67541A47FA50002B77E4 /* NSObject+SBJSON.m in Sources */,
+				EE3C67651A480B59002B77E4 /* ShowAlertView.m in Sources */,
 				EE3C67561A47FA50002B77E4 /* NSString_JSONKit.m in Sources */,
 				EE3C67411A47F85E002B77E4 /* UIButton+WebCache.m in Sources */,
 				EE3C673F1A47F85E002B77E4 /* SDWebImageManager.m in Sources */,
 				EE3C673C1A47F85E002B77E4 /* SDImageCache.m in Sources */,
 				EE3C66FD1A47F0F4002B77E4 /* ASIFormDataRequest.m in Sources */,
+				EE3C67681A48168D002B77E4 /* LaunchHttpManager.m in Sources */,
 				EE3C67591A47FA50002B77E4 /* SBJsonWriter.m in Sources */,
 				EE3C66E11A47EED5002B77E4 /* VerifyViewController.m in Sources */,
 				EE3C67621A47FC56002B77E4 /* KBTools.m in Sources */,

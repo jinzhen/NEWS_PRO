@@ -14,7 +14,7 @@
  http config
  
  */
-
+#define kVersionInterface [NSString stringWithFormat:@"getVersionInfo.action?verNo=%@",CURRENT_VERSION]
 
 
 

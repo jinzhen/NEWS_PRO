@@ -26,6 +26,8 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(LaunchManager);
     [super dealloc];
 }
 
+#pragma mark -
+#pragma mark launch step
 - (void)setupLaunchingStep
 {
     
@@ -42,6 +44,20 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(LaunchManager);
 }
 
 - (void)doRegisterStep
+{
+    
+}
+
+#pragma mark -
+#pragma mark version alert
+- (void)checkVersion
+{
+    
+}
+
+#pragma mark -
+#pragma mark get launch image
+- (void)getLaunchImage
 {
     
 }

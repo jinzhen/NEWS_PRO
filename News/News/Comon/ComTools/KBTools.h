@@ -17,5 +17,6 @@
 
 + (NSString *)getWiseDateString:(int32_t)aiDT;
 
++ (NSString *)getAppDocumentDirectory;
 
 @end
